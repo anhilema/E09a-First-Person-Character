@@ -4,6 +4,8 @@ The purpose of this exercise is for you to create a 3D first-person character in
 
 This exercise is loosely based on the Godot 101: Intro to 3D tutorial by KidsCanCode. The YouTube video is [available here](https://www.youtube.com/watch?v=_55ktNdarxY) and a similar tutorial is [written out here](http://kidscancode.org/godot_recipes/basics/3d/101_3d_07/). Please follow the directions I provide in this exercise, but if you get stuck or need additional context, feel free to consult the KidsCanCode tutorial.
 
+Please Fork and Clone this repository to your computer. In the folder that is created, locate the project.godot file and open it in Godot.
+
 In Game.tscn, I have provided a starting place for the exercise: the scene contains a parent Spatial node (named Game) and a StaticBody Ground node (containing a MeshInstance Plane and a CollisionShape)
 
 Right-click on the Game node, and Add Child Node. Choose KinematicBody (not KinematicBody2D!). Name the new node Player
